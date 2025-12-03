@@ -523,6 +523,26 @@ section {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-bottom p {
+    margin: 0.5rem 0;
+}
+
+.footer-credit {
+    font-size: 0.9rem;
+}
+
+.footer-credit a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-credit a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
